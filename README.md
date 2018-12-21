@@ -1,10 +1,10 @@
-#Hibernate SQL Differ
+# Hibernate SQL Differ
 This script does very basic diff checks on hibernate generated SQL. The idea is 
 to provide a utility that helps a developer identify changes in versions of their
 hibernate managed databases. This helps developers identify changes that should be
 added to sql migration scripts for instance. This has only been tested on PostgreSQL.
 
-##Instructions
+## Instructions
 These instructions assume the user has a springboot project and it is running on a
 dev database instance. 
 - Turn hibernate ddl-auto to create-drop, show-sql to true, and format_sql to true. 
